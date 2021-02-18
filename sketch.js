@@ -140,7 +140,7 @@ function inicializaInterface() {
   buttonSalvar.mousePressed(salvar);
 
   /* contagem regressiva */
-  inputData = createInput();
+  inputData = createInput("um dia importante");
   inputData.id('dia');
   flatpickr("#dia", { dateFormat: "d-m-Y" });
   inputData.position(width,height/2);
