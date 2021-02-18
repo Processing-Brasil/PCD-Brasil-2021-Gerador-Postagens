@@ -39,7 +39,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(800, 800);
   pixelDensity(1);
   tamanho = min(width, height) / 5;
   inicializaQuadrados();
