@@ -1,0 +1,43 @@
+html, body {
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+  }
+
+input {
+  color: #004aa3;
+  background: #e6e6d8;
+  border: #ff666c 1px solid;
+  font-size: 20px;
+  display: block;
+  margin: 10px 0 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+input.tag-line {
+  color: #ff666c;
+  background: #004aa3;
+  border: #e6e6d8 1px solid;
+}
+
+button {
+  margin: 10px 0 10px 20px;
+  color: #e6e6d8;
+  background: #ff666c;
+  border: #004aa3 1px solid;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+button.contagem-regressiva {
+  background: #004aa3;
+  padding: 10px;
+}
+
+
+canvas {
+  display: block;
+}
+  
