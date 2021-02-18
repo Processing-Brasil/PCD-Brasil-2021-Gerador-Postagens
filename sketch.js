@@ -205,9 +205,9 @@ function desenhaTipografia() {
   textSize(tamanhoTextoPrincipal);
   textLeading(tamanhoTextoPrincipal);
   fill(corFundoTipografiaPrincipal);
-  rect(0,(textoTag().length > 0?tamanho/4:0),tamanho*3,tamanho*2.5 + tamanho/4);
+  rect(0,(textoTag().length > 0?tamanho/4:0),tamanho*3,(textoTag().length > 0?tamanho*2.5 + tamanho/4:tamanho*3));
   fill(corTipografia);
-  text(textoPrincipal(),0,(textoTag().length > 0?tamanho/4:0),tamanho*3,tamanho*2.5 + tamanho/4);
+  text(textoPrincipal(),0,(textoTag().length > 0?tamanho/4:0),tamanho*3,(textoTag().length > 0?tamanho*2.5 + tamanho/4:tamanho*3));
   pop();
 }
 
